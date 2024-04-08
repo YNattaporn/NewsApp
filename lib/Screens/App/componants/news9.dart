@@ -6,9 +6,13 @@ class NewPage9 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('SWU News'),
+        title: Center(
+          child: Text('SWU NEWS', style: TextStyle(color: Colors.white)),
+        ),
+        backgroundColor: Color(0xFFC02A2A),
       ),
-      body: Center(
+      body: Container(
+        color: Color.fromARGB(255, 255, 255, 255),
           child: ListView(
         children: <Widget>[
           Card(
@@ -33,7 +37,7 @@ class NewPage9 extends StatelessWidget {
                 child: Text(
                 'สถาบันวิจัยและให้คำปรึกษาแห่งมหาวิทยาลัยธรรมศาสตร์ ร่วมกับ United States Agency for International Development: USAID เปิดรับทุนการศึกษาภายใต้โครงการทุนโครงการ USAID Enhancing Equality in Energy for Southeast Asia (E4SEA) Gender-Inclusive Energy Scholarship and internship Program สำหรับนิสิตชาวลาวที่มีความสนใจในการศึกษาและฝึกงานด้านพลังงานในประเทศไทย'+
                 '\n\nผู้ที่สนใจสามารถสมัครได้ตั้งแต่วันนี้จนถึงวันที่ 30 เมษายน 2567 และศึกษารายละเอียดเพิ่มเติมได้ตามเอกสารที่แนบมา\nหน่วยงาน :	หน่วยงานภายนอกมหาวิทยาลัย\nผู้ส่งข่าว :	ณิชาพัชร ร่วมสนิท\nE-mail ผู้ส่งข่าว :	nichapatr@g.swu.ac.th\nวันเริ่มประชาสัมพันธ์ข่าว :	14 มีนาคม 2567  ถึง   30 เมษายน 2567',
-                style: TextStyle(color: Colors.grey[600]),
+                // style: TextStyle(color: Colors.grey[600]),
                 ),
               ),
             ),

@@ -6,9 +6,13 @@ class NewPage7 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('SWU News'),
+        title: Center(
+          child: Text('SWU NEWS', style: TextStyle(color: Colors.white)),
+        ),
+        backgroundColor: Color(0xFFC02A2A),
       ),
-      body: Center(
+      body: Container(
+        color: Color.fromARGB(255, 255, 255, 255),
           child: ListView(
         children: <Widget>[
           Card(
@@ -34,7 +38,7 @@ class NewPage7 extends StatelessWidget {
                 'ภาควิชาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์ มหาวิทยาลัยศรีนครินทรวิโรฒ (มศว) ร่วมกับ Oracle Academy ขอเรียนเชิญเข้าร่วมงานอบรม (On-site) “Hands-on Oracle Cloud Computing” ในวันอังคารที่ 23 เมษายน 2024 เวลา 9:00 น. – 16:30 น. เพื่อเรียนรู้การใช้งาน Oracle Cloud และ เทคโนโลยี Cloud computing แบบ hands-on\n\n'+
                 'ท่านจะได้เรียนรู้หัวข้อที่น่าสนใจ จาก ผู้เชี่ยวชาญ Oracle Cloud และอาจารย์ผู้สอนจาก ภาควิชาวิทยาการคอมพิวเตอร์ มศว และท่านจะได้ทดลองใช้เทคโนโลยี Oracle Cloud Infrastructure\nวันเริ่มประชาสัมพันธ์ข่าว :	4 เมษายน 2567  ถึง  24 เมษายน 2567 '+
                 '\n\nหน่วยงาน : ภาควิชาวิทยาการคอมพิวเตอร์\nผู้ส่งข่าว : Werayuth\nE-mail ผู้ส่งข่าว :	werayuth@g.swu.ac.th',
-                style: TextStyle(color: Colors.grey[600]),
+                
                 ),
               ),
             ),

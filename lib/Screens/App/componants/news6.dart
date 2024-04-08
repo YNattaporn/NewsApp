@@ -6,9 +6,13 @@ class NewPage6 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('SWU News'),
+        title: Center(
+          child: Text('SWU NEWS', style: TextStyle(color: Colors.white)),
+        ),
+        backgroundColor: Color(0xFFC02A2A),
       ),
-      body: Center(
+      body: Container(
+        color: Color.fromARGB(255, 255, 255, 255),
           child: ListView(
         children: <Widget>[
           Card(
@@ -33,7 +37,7 @@ class NewPage6 extends StatelessWidget {
                 child: Text(
                 'สถานเอกอัคราชทูตสาธารณรัฐประชาชนจีนประจำประเทศไทย ประชาสัมพันธ์ทุนรัฐบาลจีนระดับปริญญาโทแบบเต็มจำนวน (ระยะวลา 1 ปี)ภายใต้โครงการ Youth of Excellence Scheme of China Program Chinese Government Scholarship ผู้สนใจจะต้องดำเนินการตามขั้นตอนการสมัครให้แล้วเสร็จภายในวันที่ 15 เมษายน 2567ดูรายละเอียดเพิ่มเติมได้ที่นี่'+
                 '\n\nหน่วยงาน : มหาวิทยาลัยศรีนครินทรวิโรฒ\nผู้ส่งข่าว : buppachat\nE-mail ผู้ส่งข่าว : buppach@g.swu.ac.th\nวันเริ่มประชาสัมพันธ์ข่าว : 17 มกราคม 2567  ถึง   15 เมษายน 2567',
-                style: TextStyle(color: Colors.grey[600]),
+                // style: TextStyle(color: Colors.grey[600]),
                 ),
               ),
             ),

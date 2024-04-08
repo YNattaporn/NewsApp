@@ -6,9 +6,13 @@ class NewPage1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('SWU News'),
+        title: Center(
+          child: Text('SWU NEWS', style: TextStyle(color: Colors.white)),
+        ),
+        backgroundColor: Color(0xFFC02A2A),
       ),
-      body: Center(
+      body: Container(
+        color: Color.fromARGB(255, 255, 255, 255),
           child: ListView(
         children: <Widget>[
           Card(
@@ -33,7 +37,7 @@ class NewPage1 extends StatelessWidget {
                 child: Text(
                 'มหาวิทยาลัยศรีนครินทรวิโรฒ (มศว) ขอแสดงความยินดีกับผู้ช่วยศาสตราจารย์ ดร.ระวิวรรณ วรรณวิไชย รองอธิการบดีฝ่ายพัฒนาศักยภาพนิสิต และ อาจารย์ประจำสาขาวิชานาฏศิลป์ คณะศิลปกรรมศาสตร์ มศว ที่ได้รับรางวัล นิสิตเก่าดีเด่น คณะศิลปกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย เนื่องในวาระเฉลิมฉลอง 40 ปีแห่งการสถาปนาคณะศิลปกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย\n'+
                 '\nข่าว/ภาพ : คณะศิลปกรรมศาสตร์ มศว\nแหล่งข้อมูล :: อื่นๆ   ประจำวันที่ 28 มีนาคม 2567',
-                style: TextStyle(color: Colors.grey[600]),
+                // style: TextStyle(color: Colors.grey[600]),
                 ),
               ),
             ),
