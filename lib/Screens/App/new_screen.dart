@@ -10,7 +10,7 @@ import 'package:flutter_auth/Screens/App/componants/news8.dart';
 import 'package:flutter_auth/Screens/App/componants/news9.dart';
 import 'package:flutter_auth/Screens/App/componants/news3.dart';
 import 'package:flutter_auth/Screens/App/componants/news2.dart';
-import 'package:flutter_auth/Screens/App/profile.dart';
+import 'package:flutter_auth/Screens/profile.dart';
 import 'package:flutter_auth/Screens/Welcome/welcome_screen.dart';
 import 'package:flutter_auth/main.dart';
 import 'package:http/http.dart' as Http;

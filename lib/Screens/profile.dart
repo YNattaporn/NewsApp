@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 //page
 
 void main() {
-  runApp(MyApp());
+  runApp(ProfilePage());
 }
 
-class MyApp extends StatelessWidget {
+class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
